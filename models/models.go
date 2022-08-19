@@ -5,3 +5,8 @@ type Note struct {
 	Title string `db:"title"`
 	Value  string `db:"value"`
 }
+
+type NoteAddParams struct {
+	Title string `json:"title"`
+	Value string `json:"value"`
+}
