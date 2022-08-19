@@ -16,3 +16,7 @@ type NoteUpdateParams struct {
 	Title string `db:"title"`
 	Value string `db:"value"`
 }
+
+type NoteDeleteParams struct {
+	ID int `db:"id"`
+}
